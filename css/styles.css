@@ -53,10 +53,43 @@ h3 {
     margin: auto;
 }
 
-p {
-    font-family: 'Courier New', Courier, monospace;  
+p, ul {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer img {
     width: 50px;
 }
+
+h5 {
+  color: rgb(255, 136, 0);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.img-thumbnail {
+  width: 300px;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px;
+  min-height: 200px; }
+
+  .card-header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  form {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  .scroll-box {
+    overflow-y: scroll;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border:rgb(255, 136, 0)
+    
+  }
