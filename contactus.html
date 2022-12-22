@@ -63,13 +63,13 @@
           <li class="nav-item">
             <a class="nav-link" href="/portfolioproject/menu.html">MENU</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="/portfolioproject/events.html">EVENTS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/portfolioproject/bookclub.html">BOOK CLUB</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="/portfolioproject/contactus.html">CONTACT US</a>
           </li>
       </div>
@@ -81,39 +81,87 @@
     <hr class="solid">
 
 
-        <hr class="solid">
 
-    </body>
-
-    <footer>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-4 offset-1">
-            <p>770 Hart St, Brooklyn, NY 11237</p>
-            <a class="btn btn-link text-dark" href="#!" role="button"><i class="fa fa-facebook"></i></a>
-
-            <a class="btn btn-link text-dark" href="#!" role="button" data-mdb-ripple-color="dark"><i
-                class="fa fa-twitter"></i></a>
-
-            <a class="btn btn-link text-dark" href="#!" role="button" data-mdb-ripple-color="dark"><i
-                class="fa fa-instagram"></i></a>
-          </div>
-
-          <div class="col-sm-4 text-center offset-3">
-            <img src="/portfolioproject/img/logo-thumb.jpg" />
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-md-5 offset-1">
+        <iframe
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=770%20Hart%20St,%20Brooklyn,%20NY%2011237+(Molasses%20Books)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-    </footer>
 
-    <!--jQuery must come first, then Popper.js, then the Bootstrap Javascript plugins-->
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/portfolioproject/js/scripts2.js"></script>
-    <!-- endbuild -->
+      <div class="col">
+        <h3>Contact Us</h3>
+        <form>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row mb-4">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="form-outline">
+                    <input type="text" id="name" class="form-control" />
+                    <label class="form-label" for="name">Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <input type="email" id="email" class="form-control" />
+                    <label class="form-label" for="email">Email</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-outline mb-4">
+                <input type="text" id="subject" class="form-control" />
+                <label class="form-label" for="subject">Subject</label>
+              </div>
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="subject" rows="4"></textarea>
+                <label class="form-label" for="subject">Message</label>
+              </div>
+              <div class="text-center text-md-start">
+                <button type="submit" class="btn btn-primary mb-5 mb-md-0">
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </form>
+  </div>
+
+
+    </section>
+    <hr class="solid">
+
   </body>
 
-  </html>
+  <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4 offset-1">
+          <p>770 Hart St, Brooklyn, NY 11237</p>
+          <a class="btn btn-link text-dark" href="#!" role="button"><i class="fa fa-facebook"></i></a>
+
+          <a class="btn btn-link text-dark" href="#!" role="button" data-mdb-ripple-color="dark"><i
+              class="fa fa-twitter"></i></a>
+
+          <a class="btn btn-link text-dark" href="#!" role="button" data-mdb-ripple-color="dark"><i
+              class="fa fa-instagram"></i></a>
+        </div>
+
+        <div class="col-sm-4 text-center offset-3">
+          <img src="/portfolioproject/img/logo-thumb.jpg" />
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--jQuery must come first, then Popper.js, then the Bootstrap Javascript plugins-->
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/portfolioproject/js/scripts2.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
